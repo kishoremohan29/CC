@@ -1,8 +1,7 @@
 using System;
 
-public class Program      //DO NOT change the class name
+public class Program      
 {
-    //implement code here
     public static void Main(string[] args)
     {
         string first_name, last_name, fullName;
