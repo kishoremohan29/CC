@@ -11,7 +11,6 @@ namespace DateEx1
         public static void Main(string[] args)    
         {
             Console.WriteLine("Enter the date of birth (dd-mm-yyyy): ");
-            //Implement code here
             DateTime dob=DateTime.ParseExact(Console.ReadLine(),"dd-mm-yyyy",null);
             string dt=dob.ToString("dd-mm-yyyy");
             Console.WriteLine(calculateAge(dt));
