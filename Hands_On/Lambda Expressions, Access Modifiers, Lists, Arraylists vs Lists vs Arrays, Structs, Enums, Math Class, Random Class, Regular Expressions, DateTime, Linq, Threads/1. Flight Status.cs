@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DateEx2		//DO NOT CHANGE namespace name
+namespace DateEx2		
 {
-	public class Program	//DO NOT CHANGE the class name
+	public class Program	
 	{
-		/*** Dictionary values are hard-coded. DO NOT change ***/
+		
 		static Dictionary<string, DateTime> flightSchedule = new Dictionary<string, DateTime>(){
 														{"ZW346", Convert.ToDateTime("13:54:10")},
 														{"AT489", Convert.ToDateTime("16:30:00")},
 														{"BR267", Convert.ToDateTime("21:15:30")}};
 		
-		public class void Main(string[] args)	//DO NOT CHANGE the 'Main' method signature
+		public class void Main(string[] args)	
 		{
-			//Implement your code here
 			string flightNumber;
 			string timeLeft;
 			
@@ -27,7 +26,7 @@ namespace DateEx2		//DO NOT CHANGE namespace name
 			Console.WriteLine(timeLeft);
 		}
 		
-		public static string flightStatus(string flightNo)	//DO NOT CHANGE the 'flightStatus' method signature
+		public static string flightStatus(string flightNo)	
 		{
 			//Implement your code here
 			if(flightSchedule.ContainsKey(flightNo))
