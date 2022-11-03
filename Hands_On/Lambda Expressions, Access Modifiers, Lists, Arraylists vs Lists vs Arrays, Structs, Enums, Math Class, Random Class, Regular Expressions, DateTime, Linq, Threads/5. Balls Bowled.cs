@@ -8,8 +8,6 @@ namespace BallsBowled
     {
         static void Main(string[] args)
         {
-            //Implement code here
-            
             Console.WriteLine("Enter the number of overs");
             int overs = int.Parse(Console.ReadLine());
             
@@ -38,7 +36,6 @@ namespace BallsBowled
 
         public int GetNoOfBallsBowled()              
         {
-            //Implement code here
             return balls*6;
         }
     }
