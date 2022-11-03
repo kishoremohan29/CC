@@ -48,15 +48,15 @@ public class Person
         DateTime Now = DateTime.Now; 
         int age = 0;
         age = DateTime.Now.Year - dob.Year;  
-        if (DateTime.Now.DayOfYear < dob.DayOfYear)  //This is for leap year
+        if (DateTime.Now.DayOfYear < dob.DayOfYear)  
             age = age - 1;  
         return age;  
     }
 }
 
-public class BirthdayProject      //DO NOT change the class name
+public class BirthdayProject      
 {
-    //implement code here
+    
     public static void Main(string[] args)
     {
         Person person = new Person();
