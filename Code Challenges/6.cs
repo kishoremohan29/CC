@@ -54,9 +54,9 @@ namespace MovieBookingApp
 using System;
 
 
-namespace MovieBookingApp      //DO NOT change the namespace name
+namespace MovieBookingApp     
 {
-    public class Program         //DO NOT change the class name
+    public class Program         
     {
         public static Movie CreateMovie(string movie_name, string cast_Names, double ticket_Price)
         {
@@ -77,7 +77,7 @@ namespace MovieBookingApp      //DO NOT change the namespace name
             return ticketAmount;
         }
 
-        static void Main(string[] args)        //DO NOT change the 'Main' method signature
+        static void Main(string[] args)        
         {
             Console.WriteLine("************************************");
             Console.WriteLine("Movie Ticket Booking Application");
