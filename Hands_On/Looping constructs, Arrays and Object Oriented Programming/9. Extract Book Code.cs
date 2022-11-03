@@ -4,20 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
-Substring(Int32)	
-Retrieves a substring from this instance. The substring starts at a specified character position and continues to the end of the string.
-Substring(Int32, Int32)	
-Retrieves a substring from this instance. The substring starts at a specified character position and has a specified length.
-*/
-
-namespace ExtractBookCode      //Do not change the namespace name
+namespace ExtractBookCode     
 {
-    public class Program      //Do not change the class name
+    public class Program      
     {
-        public static void Main(String[] arg)         //Do not change the method signature
+        public static void Main(String[] arg)        
         {
-            //Implement code here
+         
             string bookCode;
             
             Console.WriteLine("Enter the book code of length 18");
